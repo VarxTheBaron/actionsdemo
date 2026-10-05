@@ -5,7 +5,7 @@ export default function Index() {
 
   return (
     <View style={styles.container}>
-      <Text>Edit src/app/index.tsx to edit this screen.</Text>
+      <Text style={styles.title}>{message}</Text>
     </View>
   );
 }
@@ -15,5 +15,9 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: "900",
   },
 });
