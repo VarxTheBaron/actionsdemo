@@ -1,10 +1,7 @@
-import { useState } from "react";
-import { Text, View, StyleSheet } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 export default function Index() {
-  if (true) {
-    const [count, setCount] = useState(0);
-  }
+  const message: string = "hello github actions";
 
   return (
     <View style={styles.container}>
